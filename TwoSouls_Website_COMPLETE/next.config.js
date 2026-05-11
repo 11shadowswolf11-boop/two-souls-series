@@ -1,5 +1,5 @@
-{
-  "buildCommand": "npm run build",
-  "framework": "nextjs",
-  "installCommand": "npm install"
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: { unoptimized: true },
+};
+module.exports = nextConfig;
