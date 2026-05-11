@@ -1,0 +1,1 @@
+export { FilmSection } from "./AllSections";
